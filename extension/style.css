@@ -1,0 +1,36 @@
+form {
+    background-color: #f8f8f8;
+    width: 300px;
+    display: flex;
+    
+    /* Faz o input ocupar toda a largura do formulário e joga o button para baixo
+    Ou seja, quando o tamanho dos itens dentro do form atingem um total de 100% de ocupação, ele joga os itens para a próxima linha e assim sucessivamente */
+    flex-wrap: wrap;
+
+    padding: 20px;
+}
+
+.input {
+    /* Ocupar todo o espaço do formulario */
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #428d70;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #499a7b;
+}
